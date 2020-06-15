@@ -1,0 +1,33 @@
+/*
+Autor: Lucas Genari 14/06/2020
+GitHub: https://github.com/xcasluw
+*/
+
+.botao_btt {
+  background: #004e0a none repeat scroll 0 0;
+  border-radius: 3px;
+  bottom: 50px;
+  cursor: pointer;
+  height: 40px;
+  position: fixed;
+  right: 30px;
+  text-align: center;
+  width: 40px;
+  z-index: 999;
+  transition: all 0.5s ease-out;
+}
+
+.botao_btt:hover {
+  background: #2dc534;
+}
+
+.botao_btt i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.invisivel {
+  visibility: hidden;
+  display: none;
+}
